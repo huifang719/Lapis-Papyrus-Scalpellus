@@ -51,21 +51,19 @@ selectLapis.addEventListener('click',function() {
     if (game.computerChoice === choices[0]) {
       document.querySelector('#result').textContent = "It's a tie!!"
       document.querySelector('#result').classList.add('result')
-      setTimeout(resultDisappear,500)
+      setTimeout(resultDisappear,800)
     } else if (game.computerChoice === choices[1]) {
       document.querySelector('#result').textContent = "You lose!"  
       document.querySelector('#result').classList.add('result')
-      setTimeout(resultDisappear,500)
+      setTimeout(resultDisappear,800)
     } else {
       document.querySelector('#result').textContent = "You win!"
       document.querySelector('#result').classList.add('result')
-      setTimeout(resultDisappear,500)
+      setTimeout(resultDisappear,800)
     }
   })
   
   selectPapyrus.addEventListener('click',function() {
-    console.log(forPlayer.classList)
-    console.log(forComp.classList)
     computerChooses()
     computerDisplay()
     game.playerChoice = choices[1]
@@ -73,15 +71,15 @@ selectLapis.addEventListener('click',function() {
     if (game.computerChoice === choices[1]) {
       document.querySelector('#result').textContent = "It's a tie!!"
       document.querySelector('#result').classList.add('result')
-      setTimeout(resultDisappear,500)
+      setTimeout(resultDisappear,800)
     } else if (game.computerChoice === choices[2]) {
       document.querySelector('#result').textContent = "You lose!"  
       document.querySelector('#result').classList.add('result')
-      setTimeout(resultDisappear,500)
+      setTimeout(resultDisappear,800)
     } else {
       document.querySelector('#result').textContent = "You win!"
       document.querySelector('#result').classList.add('result')
-      setTimeout(resultDisappear,500)
+      setTimeout(resultDisappear,800)
     }
   })
   
@@ -95,15 +93,15 @@ selectLapis.addEventListener('click',function() {
     if (game.computerChoice === choices[2]) {
       document.querySelector('#result').textContent = "It's a tie!!"
       document.querySelector('#result').classList.add('result')
-      setTimeout(resultDisappear,500)
+      setTimeout(resultDisappear,800)
     } else if (game.computerChoice === choices[0]) {
       document.querySelector('#result').textContent = "You lose!"  
       document.querySelector('#result').classList.add('result')
-      setTimeout(resultDisappear,500)
+      setTimeout(resultDisappear,800)
     } else {
       document.querySelector('#result').textContent = "You win!"
       document.querySelector('#result').classList.add('result')
-      setTimeout(resultDisappear,500)
+      setTimeout(resultDisappear,800)
     }
   })  
 
