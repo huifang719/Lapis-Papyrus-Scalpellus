@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lapis, Papyrus, Scalpellus</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <h1>Lapis, Papyrus, Scalpellus</h1>
+        </div>
+    </div>
+    <div class="container mt-2">
+        <div class="row text-center">
+            <h3>Your Choice is ...</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mw-90 mx-auto justify-content-center">
+            <div class="col col-3">
+                <button class="p-0 border-0" id="lapis">
+                    <img class="mw-100" src="/img/Lapis.jpg" alt="">
+                </button>
+            </div>
+            <div class="col col-3">
+                <button class="p-0 border-0" id="papyrus">
+                    <img class="mw-100" src="/img/Papyrus.jpg" alt="">
+                </button> 
+            </div>
+            <div class="col col-3">
+                <button class="p-0 border-0" id="scalpellus">
+                    <img class="mw-100" src="/img/Scalpellus.jpg" alt="">
+                </button>    
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3 align-items-start">
+        <div class="row mw-80 mx-auto justify-content-center gx-6">
+            <div class="col-5 justify-content-center">
+                <h3 class="text-center">Player chose</h3>
+                <div class="row justify-content-center">
+                    <div id="player-container"></div>
+                </div>     
+            </div>
+            <div class="col-5 justify-content-center">
+                <h3 class="text-center">PC chose</h3>
+                <div class="row justify-content-center">
+                    <div id="computer-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center mw-90">
+        <p id="result"></p>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>

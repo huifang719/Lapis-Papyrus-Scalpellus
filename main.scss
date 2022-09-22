@@ -1,0 +1,47 @@
+body {
+    background-image: url(/img/background.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.result {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(30, 5, 77);
+}
+.lapis {
+    background-image: url(/img/Lapis.jpg);
+    background-size: cover;
+}
+.papyrus {
+    background-image: url(/img/Papyrus.jpg);
+    background-size: cover;
+}
+.scalpellus {
+    background-image: url(/img/Scalpellus.jpg);
+    background-size: cover;
+}
+#computer-container,
+#player-container {
+  width: 200px;
+  height: 200px;
+  padding: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    img {
+     width: 120px;
+     height: auto;
+    }
+    #computer-container,
+    #player-container {
+    width: 120px;
+    height: 120px;
+    padding: 0;
+    }
+ }
+
+@import "node_modules/bootstrap/scss/bootstrap";
