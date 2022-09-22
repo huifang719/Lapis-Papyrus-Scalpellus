@@ -16,17 +16,17 @@ body {
 }
 
 .lapis {
-  background-image: url("img/background.JPG");
+  background-image: url("img/lapis.jpg");
   background-size: cover;
 }
 
 .papyrus {
-  background-image: url("img/Papyrus.jpg");
+  background-image: url("img/papyrus.jpg");
   background-size: cover;
 }
 
 .scalpellus {
-  background-image: url("img/Scalpellus.jpg");
+  background-image: url("img/calpellus.jpg");
   background-size: cover;
 }
 
