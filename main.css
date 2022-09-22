@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-image: url(/img/background.JPG);
+  background-image: url("/img/background.JPG");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -16,17 +16,17 @@ body {
 }
 
 .lapis {
-  background-image: url(/img/Lapis.jpg);
+  background-image: url("/img/Lapis.jpg");
   background-size: cover;
 }
 
 .papyrus {
-  background-image: url(/img/Papyrus.jpg);
+  background-image: url("/img/Papyrus.jpg");
   background-size: cover;
 }
 
 .scalpellus {
-  background-image: url(/img/Scalpellus.jpg);
+  background-image: url("/img/Scalpellus.jpg");
   background-size: cover;
 }
 
